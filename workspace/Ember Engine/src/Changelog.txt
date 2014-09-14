@@ -1,0 +1,84 @@
+--------------------------------------
+EMBER ENGINE CHANGELOG
+--------------------------------------
+==============
+About
+==============
+The Ember Engine is a custom game engine that I am working on. It's
+nothing special and will most likely only be used for my own games, but if
+you really want to use it please feel free. Do give credit where credit is
+due, however.
+If you wish to get in contact with me, please send an email to
+( michael.anthony.berger@gmail.com ). I know it's quite lengthy, but I tend
+to keep on top of emails unlike other individuals.
+===============
+  Version 0.1
+===============
+- (The first commit, nothing changed or was modified.)
+<<<<<<< HEAD
+(UPLOADED)
+=======
+>>>>>>> 1048cd8b7639ddefffb26dca8d85a4a9e9355974
+===============
+  Version 0.2
+===============
+- Added custom rectangular hitbox checking [Finished]
+- Added method for getting mouse location relative to window [Finished]
+- Added file reading/writing [Finished]
+- Added separate drawing loop for user interface objects [Finished]
+- Added scene & global engine variables accessible by game objects [Finished]
+- Added VariableBoolean, flexible boolean value [Finished]
+- Added VariableCharacter, flexible character value [Finished]
+- Added VariableInteger, flexible integer value [Finished]
+- Added VariableString, flexible string value [Finished]
+- Added modifiable key binding camera movement and modifiable object following camera movement [Finished]
+- Added array for sprite sheets [Finished]
+- Added method to get sprite from a sprite sheet [Finished]
+- Changed sprites to be BufferedImages rather than plain Images (allows for getting sprites from sprite sheets)
+<<<<<<< HEAD
+(UPLOADED)
+=======
+>>>>>>> 1048cd8b7639ddefffb26dca8d85a4a9e9355974
+===============
+  Version 0.3
+===============
+- Code cleaning up [Finished]
+- Cleaned up GameEngine.java [Finished]
+- Cleaned up GameObject.java [Finished]
+- Cleaned up GameManager.java [Finished]
+- Cleaned up GO_Camera.java [Finished]
+- Cleaned up InputManager.java [Finished]
+- Cleaned up ReaderAndWriter.java [Finished]
+- Cleaned up Scene.java [Finished]
+- Cleaned up Sound.java [Finished]
+- Added GameManager commands for adding game object & adding interface object [Finished]
+- Added ReaderAndWriter method to append text to file [Finished]
+- Changed 'CheckAndCorrectID' method to be less taxing & time consuming [Finished]
+- Changed GO_Camera to follow middle of game object rather than top-left [Finished]
+- Changed the simple FPS display to display both update/second & render/second [Finished]
+- Removed Music.java (barely any code, earlier glitch makes proposed design impossible, & Sound.java could handle it all)
+- Renamed 'AddScene' method to 'NewScene' (Made more sense with how method works)
+<<<<<<< HEAD
+(UPLOADED)
+===============
+  Version 0.4
+===============
+- Added option to enable/disable closing the game window when starting the engine [Finished]
+- Added TextObject.java, a class that allows display of text to the game engine [Finished]
+- Added ID tracking to GameManager.java so that 'CheckAndCorrectID' in GameObject.java and TextObject.java actually works [Finished]
+- Added 'UpdateArrayOfInUseIDs' method to GameManager.java that is called after every object ID check made [Finished]
+- Added ability to resize game objects [Finished]
+- Changed the Variable* objects to have public data (allows editing & easier access) [Finished]
+- Changed object identifiers in GameEngine.java to make more sense [Finished]
+- Changed 'imageSprites' and 'rectangle' in GameObject.java to 'arrayImageSprites' and 'rectangleHitbox' respectively [Finished]
+- Changed object identifiers in GameManager.java to make more sense [Finished]
+- Changed how 'CheckAndCorrectID' in GameObject.java worked from its initial concept [Finished]
+- Replaced all instances of 'AL_InterfaceObjects' with 'AL_TextObjects' [Finished]
+- Removed all instances of 'AL_InterfaceObjects' from the game engine (was pointless in design)
+(UPLOADED)
+=======
+>>>>>>> 1048cd8b7639ddefffb26dca8d85a4a9e9355974
+===============
+  Version 0.5
+===============
+- (No changes at all, I'm just testing Github)
